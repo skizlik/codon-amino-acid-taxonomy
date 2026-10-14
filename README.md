@@ -1,5 +1,9 @@
 # Codon Usage Analysis: Predicting Taxonomic Groups and DNA Types
 
+> **Erratum (2026):** The model-comparison numbers originally published here were affected by a
+> results-table join error and two evaluation defects. They are withdrawn pending a corrected
+> analysis. See [ERRATUM.md](ERRATUM.md).
+
 A machine learning analysis of codon usage patterns to predict taxonomic classification and DNA type using multiple algorithms including k-Nearest Neighbors, Random Forest, XGBoost, Multi-Layer Perceptron, and Naive Bayes.
 
 ## Project Overview
@@ -22,51 +26,25 @@ This project replicates and extends the findings of Khomtchouk (2020) on using c
 - Applied 85/15 train-test splits with separate validation sets
 - One-hot encoding for categorical variables
 
-For detailed methodology, results, and analysis, see the complete project report: `docs/codon-amino-acid-taxonomy.pdf`
+The original 2022 project report is `docs/codon-amino-acid-taxonomy-report.pdf`. Its model-comparison results are withdrawn (see [ERRATUM.md](ERRATUM.md)).
 
 ## Installation and Setup
 
-### Option 1: Using pyproject.toml (recommended)
 ```bash
-git clone <repository-url>
-cd <repository-name>
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-pip install -e .
-```
-
-### Option 2: Using requirements.txt
-```bash
-git clone <repository-url>
-cd <repository-name>
+git clone https://github.com/skizlik/codon-amino-acid-taxonomy.git
+cd codon-amino-acid-taxonomy
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+The 2022 notebooks predate pandas 2.0 and XGBoost 2.0 and do not run unchanged on current versions.
+
 ## Key Findings
 
-### Model Performance Summary
-
-**Best Overall Model**: Multi-Layer Perceptron (MLP) with hyperparameter optimization
-- DNA type prediction: F1 = 0.993, ROC-AUC = 0.999
-- Taxonomic group prediction: F1 = 0.932, ROC-AUC = 0.995
-
-### Algorithm Comparison
-
-| Algorithm | DNA Type F1 | Kingdom F1 | Runtime | Notes |
-|-----------|-------------|------------|---------|-------|
-| MLP | 0.993 | 0.932 | ~280s | Best overall performance |
-| k-NN | 0.993 | 0.938 | ~3s | Best speed-to-performance ratio |
-| Random Forest | 0.989 | 0.852 | ~3s | Consistent, interpretable |
-| XGBoost | 0.978 | 0.752 | ~1s | Fast but variable performance |
-| Naive Bayes | 0.907 | 0.581 | <1s | Baseline comparison |
-
-### Codon vs Amino Acid Features
-
-- **Codon-based models**: Slightly superior performance across all algorithms
-- **Amino acid-based models**: Nearly comparable results with 67% fewer features
-- **Practical implication**: Amino acid frequencies offer a viable alternative for applications where computational efficiency is prioritized
+Withdrawn. The model-performance table and the codon-versus-amino-acid comparison previously shown here
+were affected by the defects described in [ERRATUM.md](ERRATUM.md). A corrected analysis
+(grouped, repeated cross-validation with nested tuning) will replace this section.
 
 ## Technical Approach
 
@@ -74,13 +52,12 @@ pip install -r requirements.txt
 1. **Exploratory Data Analysis**: Distribution analysis, correlation matrices, PCA
 2. **Feature Engineering**: Conversion of codon frequencies to amino acid frequencies
 3. **Model Training**: Five different algorithms with hyperparameter optimization
-4. **Evaluation**: Cross-validation with F1-score, accuracy, and ROC-AUC metrics
+4. **Evaluation**: Single train/validation/test split with F1-score, accuracy, and ROC-AUC metrics
 5. **Feature Importance**: SHAP analysis and Gini impurity rankings
 
 ### Hyperparameter Optimization
-- Manual tuning for k-NN and Random Forest
+- Manual tuning for k-NN and Random Forest (settings were chosen on the test split; see ERRATUM.md)
 - Automated optimization using Hyperopt for XGBoost and MLP
-- Validation-based model selection
 
 ## Notebooks Description
 
@@ -109,14 +86,12 @@ pip install -r requirements.txt
 - DNA type classification achieves higher accuracy than taxonomic classification
 
 ### Methodological Contributions
-- Demonstrates amino acid frequencies as viable alternative to codon frequencies
-![Boxplots of relative frequency of leucine by taxonomic group.  Notably, leucine is substantially more common among vertebrates than invertebrates.](assets/leucine_boxplot.png)
-- Validates hyperparameter optimization importance for neural networks
-- Provides comprehensive comparison across multiple ML algorithms
+- Examines amino acid frequencies as an alternative to codon frequencies
+![Boxplots of relative frequency of leucine by taxonomic group, all DNA types pooled. The vertebrate-invertebrate difference is mostly a compartment effect: 78% of vertebrate rows are mitochondrial, and mitochondrial rows have higher leucine frequencies.](assets/leucine_boxplot.png)
 
 ## Future Work
 
-- Address anomalous XGBoost hyperparameter optimization results
+- Corrected re-analysis (the anomalous XGBoost results are explained in ERRATUM.md)
 - Expand analysis to include sparse taxonomic categories
 - Implement ensemble methods combining top-performing algorithms
 - Investigate correlation patterns between related amino acids and codons
@@ -131,6 +106,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## Contact
 
-[Stephen Kizlik] - [stephen.kizlik@gmail.com]
+Stephen Kizlik · stephen.kizlik@gmail.com
 
-Project Link: [github.com/skizlik/codon-amino-acid-taxonomy]
+Project link: https://github.com/skizlik/codon-amino-acid-taxonomy
