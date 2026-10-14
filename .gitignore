@@ -36,3 +36,9 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Rebuild (2026)
+.pytest_cache/
+results/smoke/
+data/processed/
+*.pkl
