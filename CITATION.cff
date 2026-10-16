@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this code or its results, please cite it as below."
+title: "Codon usage taxonomy: grouped cross-validation and a leakage analysis on the UCI Codon Usage data"
+authors:
+  - family-names: Kizlik
+    given-names: Stephen
+    email: stephen.kizlik@gmail.com
+version: 1.0.0
+license: MIT
+repository-code: "https://github.com/skizlik/codon-amino-acid-taxonomy"
+keywords: [codon usage, cross-validation, data leakage, model validation, bioinformatics]
+references:
+  - type: article
+    title: "Codon usage bias levels predict taxonomic identity and genetic composition"
+    authors:
+      - family-names: Khomtchouk
+        given-names: Bohdan B.
+    year: 2020
+    journal: bioRxiv
+    doi: 10.1101/2020.10.26.356295

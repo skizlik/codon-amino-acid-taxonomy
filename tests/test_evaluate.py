@@ -106,3 +106,19 @@ def test_index_merge_after_dropping_rows_misaligns_metrics():
     assess = pd.DataFrame(list(results.assessment), index=results.index)
     fixed = results.join(assess, validate="one_to_one")
     assert len(fixed) == len(results) and (fixed.model_type == fixed.fitted).all()
+
+
+def test_colsample_bytree_zero_grows_single_feature_trees():
+    """ERRATUM item 2: the 2022 search passed int(colsample_bytree), which is always 0."""
+    from xgboost import XGBClassifier
+
+    X, y = make_classification(400, 10, n_informative=6, n_classes=3, random_state=0)
+
+    def max_features_per_tree(colsample):
+        model = XGBClassifier(n_estimators=20, max_depth=4, colsample_bytree=colsample, verbosity=0).fit(X, y)
+        trees = model.get_booster().trees_to_dataframe()
+        return trees[trees.Feature != "Leaf"].groupby("Tree").Feature.nunique().max()
+
+    assert int(0.61) == 0  # what int() did to every value drawn from U(0.5, 1)
+    assert max_features_per_tree(0) == 1  # accepted silently: one feature per tree
+    assert max_features_per_tree(0.8) > 1

@@ -3,8 +3,8 @@
 The model-comparison results originally reported in this repository (README tables,
 `data/rawbest.csv`, the 2022 report and slides; preserved at tag
 [`v0-2022`](https://github.com/skizlik/codon-amino-acid-taxonomy/tree/v0-2022)) contain errors.
-They are withdrawn. A corrected analysis, produced by tested code in this repository, will
-replace them in the [README](README.md).
+They are withdrawn and replaced by the analysis in the [README](README.md), which is produced by
+tested code in this repository (`make run`).
 
 ## What was wrong
 
@@ -25,9 +25,11 @@ replace them in the [README](README.md).
    used class labels, and their ROC-AUC was computed from hard predictions. There was no
    cross-validation and no grouping of related organisms.
 4. **Data.** Two records whose species names contain commas were misparsed, shifting all of
-   their codon values. An amino-acid feature (`start`) duplicated methionine. Two records with
-   DNA-type code 9 were silently lost as missing values, so 65 rows were removed in total, not
-   62 as the report states.
+   their codon values; they are now repaired exactly from the codon counts. An amino-acid
+   feature (`start`) duplicated methionine (both are AUG, and aggregate codon counts cannot
+   separate initiator from internal AUGs); it is removed. Two records with DNA-type code 9 were
+   silently lost as missing values, so 65 rows were removed in total, not 62 as the report
+   states.
 
 ## How the join error mapped rows to metrics
 
@@ -42,3 +44,23 @@ cell 52 merged the two on index labels.
 | 88–91 | XGB | **XGB-Hyperopt** |
 | 96–99 | XGB-Hyperopt | **GNB** |
 | 100–103, 108–111 | MLP-Hyperopt, GNB | dropped by the inner join (re-added correctly later) |
+
+`tests/test_evaluate.py::test_index_merge_after_dropping_rows_misaligns_metrics` reproduces this
+misalignment in miniature next to the safe pattern, and
+`tests/test_evaluate.py::test_colsample_bytree_zero_grows_single_feature_trees` documents item 2.
+
+## Conclusions that changed
+
+Corrected design: 5-fold cross-validation repeated 3 times with whole species (or genera) held out,
+nested tuning on the training folds only, and corrected paired tests.
+
+- **XGBoost is among the strongest models, not the weakest.** Species held out, kingdom macro-F1:
+  XGBoost 0.862<!--r:summary.species.kingdom.codon.xgb.f1_macro.mean-->, k-NN 0.880<!--r:summary.species.kingdom.codon.knn.f1_macro.mean-->, MLP 0.869<!--r:summary.species.kingdom.codon.mlp.f1_macro.mean-->.
+- **No single best model.** On macro-F1 the leader is never significantly ahead of the runner-up, and
+  with whole genera held out the MLP (0.789<!--r:summary.genus.kingdom.codon.mlp.f1_macro.mean-->) edges out k-NN (0.768<!--r:summary.genus.kingdom.codon.knn.f1_macro.mean-->) and XGBoost
+  (0.767<!--r:summary.genus.kingdom.codon.xgb.f1_macro.mean-->).
+- **Amino-acid features are close to codon features for DNA type but clearly worse for kingdom**
+  (kingdom macro-F1 lower by 0.042<!--r:cva.species.kingdom.rf.f1_macro.diff-->–0.121<!--r:cva.species.kingdom.mlp.f1_macro.diff--> for k-NN, random forest, XGBoost and MLP), not
+  "nearly comparable" across the board.
+- **Scores on random or species-held-out folds overstate kingdom performance on unseen genera** by
+  0.065<!--r:leak_range_strong.kingdom.f1_macro_species_minus_genus.min-->–0.128<!--r:leak_range_strong.kingdom.f1_macro_species_minus_genus.max--> macro-F1; the 2022 analysis did not group related organisms at all.
