@@ -1,0 +1,1081 @@
+scheme,task,features,model,repeat,fold,params
+species,kingdom,codon,majority,0,0,{}
+species,kingdom,codon,gnb,0,0,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,codon,rf,0,0,{}
+species,kingdom,codon,xgb,0,0,{}
+species,kingdom,codon,mlp,0,0,{}
+species,kingdom,codon,majority,0,1,{}
+species,kingdom,codon,gnb,0,1,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,0,1,{}
+species,kingdom,codon,xgb,0,1,{}
+species,kingdom,codon,mlp,0,1,{}
+species,kingdom,codon,majority,0,2,{}
+species,kingdom,codon,gnb,0,2,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,0,2,{}
+species,kingdom,codon,xgb,0,2,{}
+species,kingdom,codon,mlp,0,2,{}
+species,kingdom,codon,majority,0,3,{}
+species,kingdom,codon,gnb,0,3,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,0,3,{}
+species,kingdom,codon,xgb,0,3,{}
+species,kingdom,codon,mlp,0,3,{}
+species,kingdom,codon,majority,0,4,{}
+species,kingdom,codon,gnb,0,4,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,codon,rf,0,4,{}
+species,kingdom,codon,xgb,0,4,{}
+species,kingdom,codon,mlp,0,4,{}
+species,kingdom,codon,majority,1,0,{}
+species,kingdom,codon,gnb,1,0,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,1,0,{}
+species,kingdom,codon,xgb,1,0,{}
+species,kingdom,codon,mlp,1,0,{}
+species,kingdom,codon,majority,1,1,{}
+species,kingdom,codon,gnb,1,1,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,1,1,{}
+species,kingdom,codon,xgb,1,1,{}
+species,kingdom,codon,mlp,1,1,{}
+species,kingdom,codon,majority,1,2,{}
+species,kingdom,codon,gnb,1,2,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,1,2,{}
+species,kingdom,codon,xgb,1,2,{}
+species,kingdom,codon,mlp,1,2,{}
+species,kingdom,codon,majority,1,3,{}
+species,kingdom,codon,gnb,1,3,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,1,3,{}
+species,kingdom,codon,xgb,1,3,{}
+species,kingdom,codon,mlp,1,3,{}
+species,kingdom,codon,majority,1,4,{}
+species,kingdom,codon,gnb,1,4,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,1,4,{}
+species,kingdom,codon,xgb,1,4,{}
+species,kingdom,codon,mlp,1,4,{}
+species,kingdom,codon,majority,2,0,{}
+species,kingdom,codon,gnb,2,0,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,2,0,{}
+species,kingdom,codon,xgb,2,0,{}
+species,kingdom,codon,mlp,2,0,{}
+species,kingdom,codon,majority,2,1,{}
+species,kingdom,codon,gnb,2,1,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,2,1,{}
+species,kingdom,codon,xgb,2,1,{}
+species,kingdom,codon,mlp,2,1,{}
+species,kingdom,codon,majority,2,2,{}
+species,kingdom,codon,gnb,2,2,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,2,2,{}
+species,kingdom,codon,xgb,2,2,{}
+species,kingdom,codon,mlp,2,2,{}
+species,kingdom,codon,majority,2,3,{}
+species,kingdom,codon,gnb,2,3,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,2,3,{}
+species,kingdom,codon,xgb,2,3,{}
+species,kingdom,codon,mlp,2,3,{}
+species,kingdom,codon,majority,2,4,{}
+species,kingdom,codon,gnb,2,4,{'var_smoothing': 1e-09}
+species,kingdom,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,codon,rf,2,4,{}
+species,kingdom,codon,xgb,2,4,{}
+species,kingdom,codon,mlp,2,4,{}
+species,kingdom,amino,majority,0,0,{}
+species,kingdom,amino,gnb,0,0,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,0,0,{}
+species,kingdom,amino,xgb,0,0,{}
+species,kingdom,amino,mlp,0,0,{}
+species,kingdom,amino,majority,0,1,{}
+species,kingdom,amino,gnb,0,1,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,0,1,{}
+species,kingdom,amino,xgb,0,1,{}
+species,kingdom,amino,mlp,0,1,{}
+species,kingdom,amino,majority,0,2,{}
+species,kingdom,amino,gnb,0,2,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,0,2,{}
+species,kingdom,amino,xgb,0,2,{}
+species,kingdom,amino,mlp,0,2,{}
+species,kingdom,amino,majority,0,3,{}
+species,kingdom,amino,gnb,0,3,{'var_smoothing': 1e-06}
+species,kingdom,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,0,3,{}
+species,kingdom,amino,xgb,0,3,{}
+species,kingdom,amino,mlp,0,3,{}
+species,kingdom,amino,majority,0,4,{}
+species,kingdom,amino,gnb,0,4,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,amino,rf,0,4,{}
+species,kingdom,amino,xgb,0,4,{}
+species,kingdom,amino,mlp,0,4,{}
+species,kingdom,amino,majority,1,0,{}
+species,kingdom,amino,gnb,1,0,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,1,0,{}
+species,kingdom,amino,xgb,1,0,{}
+species,kingdom,amino,mlp,1,0,{}
+species,kingdom,amino,majority,1,1,{}
+species,kingdom,amino,gnb,1,1,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,1,1,{}
+species,kingdom,amino,xgb,1,1,{}
+species,kingdom,amino,mlp,1,1,{}
+species,kingdom,amino,majority,1,2,{}
+species,kingdom,amino,gnb,1,2,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,amino,rf,1,2,{}
+species,kingdom,amino,xgb,1,2,{}
+species,kingdom,amino,mlp,1,2,{}
+species,kingdom,amino,majority,1,3,{}
+species,kingdom,amino,gnb,1,3,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,1,3,{}
+species,kingdom,amino,xgb,1,3,{}
+species,kingdom,amino,mlp,1,3,{}
+species,kingdom,amino,majority,1,4,{}
+species,kingdom,amino,gnb,1,4,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,1,4,{}
+species,kingdom,amino,xgb,1,4,{}
+species,kingdom,amino,mlp,1,4,{}
+species,kingdom,amino,majority,2,0,{}
+species,kingdom,amino,gnb,2,0,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,amino,rf,2,0,{}
+species,kingdom,amino,xgb,2,0,{}
+species,kingdom,amino,mlp,2,0,{}
+species,kingdom,amino,majority,2,1,{}
+species,kingdom,amino,gnb,2,1,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,2,1,{}
+species,kingdom,amino,xgb,2,1,{}
+species,kingdom,amino,mlp,2,1,{}
+species,kingdom,amino,majority,2,2,{}
+species,kingdom,amino,gnb,2,2,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 3}
+species,kingdom,amino,rf,2,2,{}
+species,kingdom,amino,xgb,2,2,{}
+species,kingdom,amino,mlp,2,2,{}
+species,kingdom,amino,majority,2,3,{}
+species,kingdom,amino,gnb,2,3,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,2,3,{}
+species,kingdom,amino,xgb,2,3,{}
+species,kingdom,amino,mlp,2,3,{}
+species,kingdom,amino,majority,2,4,{}
+species,kingdom,amino,gnb,2,4,{'var_smoothing': 1e-09}
+species,kingdom,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+species,kingdom,amino,rf,2,4,{}
+species,kingdom,amino,xgb,2,4,{}
+species,kingdom,amino,mlp,2,4,{}
+species,dna_type,codon,majority,0,0,{}
+species,dna_type,codon,gnb,0,0,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,0,0,{}
+species,dna_type,codon,xgb,0,0,{}
+species,dna_type,codon,mlp,0,0,{}
+species,dna_type,codon,majority,0,1,{}
+species,dna_type,codon,gnb,0,1,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,0,1,{}
+species,dna_type,codon,xgb,0,1,{}
+species,dna_type,codon,mlp,0,1,{}
+species,dna_type,codon,majority,0,2,{}
+species,dna_type,codon,gnb,0,2,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,0,2,{}
+species,dna_type,codon,xgb,0,2,{}
+species,dna_type,codon,mlp,0,2,{}
+species,dna_type,codon,majority,0,3,{}
+species,dna_type,codon,gnb,0,3,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,0,3,{}
+species,dna_type,codon,xgb,0,3,{}
+species,dna_type,codon,mlp,0,3,{}
+species,dna_type,codon,majority,0,4,{}
+species,dna_type,codon,gnb,0,4,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,0,4,{}
+species,dna_type,codon,xgb,0,4,{}
+species,dna_type,codon,mlp,0,4,{}
+species,dna_type,codon,majority,1,0,{}
+species,dna_type,codon,gnb,1,0,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,1,0,{}
+species,dna_type,codon,xgb,1,0,{}
+species,dna_type,codon,mlp,1,0,{}
+species,dna_type,codon,majority,1,1,{}
+species,dna_type,codon,gnb,1,1,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,1,1,{}
+species,dna_type,codon,xgb,1,1,{}
+species,dna_type,codon,mlp,1,1,{}
+species,dna_type,codon,majority,1,2,{}
+species,dna_type,codon,gnb,1,2,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,1,2,{}
+species,dna_type,codon,xgb,1,2,{}
+species,dna_type,codon,mlp,1,2,{}
+species,dna_type,codon,majority,1,3,{}
+species,dna_type,codon,gnb,1,3,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,1,3,{}
+species,dna_type,codon,xgb,1,3,{}
+species,dna_type,codon,mlp,1,3,{}
+species,dna_type,codon,majority,1,4,{}
+species,dna_type,codon,gnb,1,4,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,1,4,{}
+species,dna_type,codon,xgb,1,4,{}
+species,dna_type,codon,mlp,1,4,{}
+species,dna_type,codon,majority,2,0,{}
+species,dna_type,codon,gnb,2,0,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,2,0,{}
+species,dna_type,codon,xgb,2,0,{}
+species,dna_type,codon,mlp,2,0,{}
+species,dna_type,codon,majority,2,1,{}
+species,dna_type,codon,gnb,2,1,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,codon,rf,2,1,{}
+species,dna_type,codon,xgb,2,1,{}
+species,dna_type,codon,mlp,2,1,{}
+species,dna_type,codon,majority,2,2,{}
+species,dna_type,codon,gnb,2,2,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,2,2,{}
+species,dna_type,codon,xgb,2,2,{}
+species,dna_type,codon,mlp,2,2,{}
+species,dna_type,codon,majority,2,3,{}
+species,dna_type,codon,gnb,2,3,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,2,3,{}
+species,dna_type,codon,xgb,2,3,{}
+species,dna_type,codon,mlp,2,3,{}
+species,dna_type,codon,majority,2,4,{}
+species,dna_type,codon,gnb,2,4,{'var_smoothing': 1e-09}
+species,dna_type,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,codon,rf,2,4,{}
+species,dna_type,codon,xgb,2,4,{}
+species,dna_type,codon,mlp,2,4,{}
+species,dna_type,amino,majority,0,0,{}
+species,dna_type,amino,gnb,0,0,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,0,0,{}
+species,dna_type,amino,xgb,0,0,{}
+species,dna_type,amino,mlp,0,0,{}
+species,dna_type,amino,majority,0,1,{}
+species,dna_type,amino,gnb,0,1,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,0,1,{}
+species,dna_type,amino,xgb,0,1,{}
+species,dna_type,amino,mlp,0,1,{}
+species,dna_type,amino,majority,0,2,{}
+species,dna_type,amino,gnb,0,2,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,0,2,{}
+species,dna_type,amino,xgb,0,2,{}
+species,dna_type,amino,mlp,0,2,{}
+species,dna_type,amino,majority,0,3,{}
+species,dna_type,amino,gnb,0,3,{'var_smoothing': 0.001}
+species,dna_type,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,amino,rf,0,3,{}
+species,dna_type,amino,xgb,0,3,{}
+species,dna_type,amino,mlp,0,3,{}
+species,dna_type,amino,majority,0,4,{}
+species,dna_type,amino,gnb,0,4,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,amino,rf,0,4,{}
+species,dna_type,amino,xgb,0,4,{}
+species,dna_type,amino,mlp,0,4,{}
+species,dna_type,amino,majority,1,0,{}
+species,dna_type,amino,gnb,1,0,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,1,0,{}
+species,dna_type,amino,xgb,1,0,{}
+species,dna_type,amino,mlp,1,0,{}
+species,dna_type,amino,majority,1,1,{}
+species,dna_type,amino,gnb,1,1,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 7}
+species,dna_type,amino,rf,1,1,{}
+species,dna_type,amino,xgb,1,1,{}
+species,dna_type,amino,mlp,1,1,{}
+species,dna_type,amino,majority,1,2,{}
+species,dna_type,amino,gnb,1,2,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,1,2,{}
+species,dna_type,amino,xgb,1,2,{}
+species,dna_type,amino,mlp,1,2,{}
+species,dna_type,amino,majority,1,3,{}
+species,dna_type,amino,gnb,1,3,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,1,3,{}
+species,dna_type,amino,xgb,1,3,{}
+species,dna_type,amino,mlp,1,3,{}
+species,dna_type,amino,majority,1,4,{}
+species,dna_type,amino,gnb,1,4,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,1,4,{}
+species,dna_type,amino,xgb,1,4,{}
+species,dna_type,amino,mlp,1,4,{}
+species,dna_type,amino,majority,2,0,{}
+species,dna_type,amino,gnb,2,0,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,2,0,{}
+species,dna_type,amino,xgb,2,0,{}
+species,dna_type,amino,mlp,2,0,{}
+species,dna_type,amino,majority,2,1,{}
+species,dna_type,amino,gnb,2,1,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+species,dna_type,amino,rf,2,1,{}
+species,dna_type,amino,xgb,2,1,{}
+species,dna_type,amino,mlp,2,1,{}
+species,dna_type,amino,majority,2,2,{}
+species,dna_type,amino,gnb,2,2,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,2,2,{}
+species,dna_type,amino,xgb,2,2,{}
+species,dna_type,amino,mlp,2,2,{}
+species,dna_type,amino,majority,2,3,{}
+species,dna_type,amino,gnb,2,3,{'var_smoothing': 0.001}
+species,dna_type,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,2,3,{}
+species,dna_type,amino,xgb,2,3,{}
+species,dna_type,amino,mlp,2,3,{}
+species,dna_type,amino,majority,2,4,{}
+species,dna_type,amino,gnb,2,4,{'var_smoothing': 1e-09}
+species,dna_type,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 3}
+species,dna_type,amino,rf,2,4,{}
+species,dna_type,amino,xgb,2,4,{}
+species,dna_type,amino,mlp,2,4,{}
+genus,kingdom,codon,majority,0,0,{}
+genus,kingdom,codon,gnb,0,0,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,0,0,{}
+genus,kingdom,codon,xgb,0,0,{}
+genus,kingdom,codon,mlp,0,0,{}
+genus,kingdom,codon,majority,0,1,{}
+genus,kingdom,codon,gnb,0,1,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,codon,rf,0,1,{}
+genus,kingdom,codon,xgb,0,1,{}
+genus,kingdom,codon,mlp,0,1,{}
+genus,kingdom,codon,majority,0,2,{}
+genus,kingdom,codon,gnb,0,2,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,0,2,{}
+genus,kingdom,codon,xgb,0,2,{}
+genus,kingdom,codon,mlp,0,2,{}
+genus,kingdom,codon,majority,0,3,{}
+genus,kingdom,codon,gnb,0,3,{'var_smoothing': 1e-06}
+genus,kingdom,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,0,3,{}
+genus,kingdom,codon,xgb,0,3,{}
+genus,kingdom,codon,mlp,0,3,{}
+genus,kingdom,codon,majority,0,4,{}
+genus,kingdom,codon,gnb,0,4,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,0,4,{}
+genus,kingdom,codon,xgb,0,4,{}
+genus,kingdom,codon,mlp,0,4,{}
+genus,kingdom,codon,majority,1,0,{}
+genus,kingdom,codon,gnb,1,0,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,1,0,{}
+genus,kingdom,codon,xgb,1,0,{}
+genus,kingdom,codon,mlp,1,0,{}
+genus,kingdom,codon,majority,1,1,{}
+genus,kingdom,codon,gnb,1,1,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,codon,rf,1,1,{}
+genus,kingdom,codon,xgb,1,1,{}
+genus,kingdom,codon,mlp,1,1,{}
+genus,kingdom,codon,majority,1,2,{}
+genus,kingdom,codon,gnb,1,2,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,1,2,{}
+genus,kingdom,codon,xgb,1,2,{}
+genus,kingdom,codon,mlp,1,2,{}
+genus,kingdom,codon,majority,1,3,{}
+genus,kingdom,codon,gnb,1,3,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,1,3,{}
+genus,kingdom,codon,xgb,1,3,{}
+genus,kingdom,codon,mlp,1,3,{}
+genus,kingdom,codon,majority,1,4,{}
+genus,kingdom,codon,gnb,1,4,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,1,4,{}
+genus,kingdom,codon,xgb,1,4,{}
+genus,kingdom,codon,mlp,1,4,{}
+genus,kingdom,codon,majority,2,0,{}
+genus,kingdom,codon,gnb,2,0,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,2,0,{}
+genus,kingdom,codon,xgb,2,0,{}
+genus,kingdom,codon,mlp,2,0,{}
+genus,kingdom,codon,majority,2,1,{}
+genus,kingdom,codon,gnb,2,1,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,2,1,{}
+genus,kingdom,codon,xgb,2,1,{}
+genus,kingdom,codon,mlp,2,1,{}
+genus,kingdom,codon,majority,2,2,{}
+genus,kingdom,codon,gnb,2,2,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,2,2,{}
+genus,kingdom,codon,xgb,2,2,{}
+genus,kingdom,codon,mlp,2,2,{}
+genus,kingdom,codon,majority,2,3,{}
+genus,kingdom,codon,gnb,2,3,{'var_smoothing': 1e-06}
+genus,kingdom,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,codon,rf,2,3,{}
+genus,kingdom,codon,xgb,2,3,{}
+genus,kingdom,codon,mlp,2,3,{}
+genus,kingdom,codon,majority,2,4,{}
+genus,kingdom,codon,gnb,2,4,{'var_smoothing': 1e-09}
+genus,kingdom,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,codon,rf,2,4,{}
+genus,kingdom,codon,xgb,2,4,{}
+genus,kingdom,codon,mlp,2,4,{}
+genus,kingdom,amino,majority,0,0,{}
+genus,kingdom,amino,gnb,0,0,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,0,0,{}
+genus,kingdom,amino,xgb,0,0,{}
+genus,kingdom,amino,mlp,0,0,{}
+genus,kingdom,amino,majority,0,1,{}
+genus,kingdom,amino,gnb,0,1,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,amino,rf,0,1,{}
+genus,kingdom,amino,xgb,0,1,{}
+genus,kingdom,amino,mlp,0,1,{}
+genus,kingdom,amino,majority,0,2,{}
+genus,kingdom,amino,gnb,0,2,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,0,2,{}
+genus,kingdom,amino,xgb,0,2,{}
+genus,kingdom,amino,mlp,0,2,{}
+genus,kingdom,amino,majority,0,3,{}
+genus,kingdom,amino,gnb,0,3,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,0,3,{}
+genus,kingdom,amino,xgb,0,3,{}
+genus,kingdom,amino,mlp,0,3,{}
+genus,kingdom,amino,majority,0,4,{}
+genus,kingdom,amino,gnb,0,4,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,0,4,{}
+genus,kingdom,amino,xgb,0,4,{}
+genus,kingdom,amino,mlp,0,4,{}
+genus,kingdom,amino,majority,1,0,{}
+genus,kingdom,amino,gnb,1,0,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,1,0,{}
+genus,kingdom,amino,xgb,1,0,{}
+genus,kingdom,amino,mlp,1,0,{}
+genus,kingdom,amino,majority,1,1,{}
+genus,kingdom,amino,gnb,1,1,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,1,1,{}
+genus,kingdom,amino,xgb,1,1,{}
+genus,kingdom,amino,mlp,1,1,{}
+genus,kingdom,amino,majority,1,2,{}
+genus,kingdom,amino,gnb,1,2,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,amino,rf,1,2,{}
+genus,kingdom,amino,xgb,1,2,{}
+genus,kingdom,amino,mlp,1,2,{}
+genus,kingdom,amino,majority,1,3,{}
+genus,kingdom,amino,gnb,1,3,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,1,3,{}
+genus,kingdom,amino,xgb,1,3,{}
+genus,kingdom,amino,mlp,1,3,{}
+genus,kingdom,amino,majority,1,4,{}
+genus,kingdom,amino,gnb,1,4,{'var_smoothing': 0.001}
+genus,kingdom,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,amino,rf,1,4,{}
+genus,kingdom,amino,xgb,1,4,{}
+genus,kingdom,amino,mlp,1,4,{}
+genus,kingdom,amino,majority,2,0,{}
+genus,kingdom,amino,gnb,2,0,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,2,0,{}
+genus,kingdom,amino,xgb,2,0,{}
+genus,kingdom,amino,mlp,2,0,{}
+genus,kingdom,amino,majority,2,1,{}
+genus,kingdom,amino,gnb,2,1,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,amino,rf,2,1,{}
+genus,kingdom,amino,xgb,2,1,{}
+genus,kingdom,amino,mlp,2,1,{}
+genus,kingdom,amino,majority,2,2,{}
+genus,kingdom,amino,gnb,2,2,{'var_smoothing': 1e-06}
+genus,kingdom,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,2,2,{}
+genus,kingdom,amino,xgb,2,2,{}
+genus,kingdom,amino,mlp,2,2,{}
+genus,kingdom,amino,majority,2,3,{}
+genus,kingdom,amino,gnb,2,3,{'var_smoothing': 1e-06}
+genus,kingdom,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,kingdom,amino,rf,2,3,{}
+genus,kingdom,amino,xgb,2,3,{}
+genus,kingdom,amino,mlp,2,3,{}
+genus,kingdom,amino,majority,2,4,{}
+genus,kingdom,amino,gnb,2,4,{'var_smoothing': 1e-09}
+genus,kingdom,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 3}
+genus,kingdom,amino,rf,2,4,{}
+genus,kingdom,amino,xgb,2,4,{}
+genus,kingdom,amino,mlp,2,4,{}
+genus,dna_type,codon,majority,0,0,{}
+genus,dna_type,codon,gnb,0,0,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,0,0,{}
+genus,dna_type,codon,xgb,0,0,{}
+genus,dna_type,codon,mlp,0,0,{}
+genus,dna_type,codon,majority,0,1,{}
+genus,dna_type,codon,gnb,0,1,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,0,1,{}
+genus,dna_type,codon,xgb,0,1,{}
+genus,dna_type,codon,mlp,0,1,{}
+genus,dna_type,codon,majority,0,2,{}
+genus,dna_type,codon,gnb,0,2,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 7}
+genus,dna_type,codon,rf,0,2,{}
+genus,dna_type,codon,xgb,0,2,{}
+genus,dna_type,codon,mlp,0,2,{}
+genus,dna_type,codon,majority,0,3,{}
+genus,dna_type,codon,gnb,0,3,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,0,3,{}
+genus,dna_type,codon,xgb,0,3,{}
+genus,dna_type,codon,mlp,0,3,{}
+genus,dna_type,codon,majority,0,4,{}
+genus,dna_type,codon,gnb,0,4,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 7}
+genus,dna_type,codon,rf,0,4,{}
+genus,dna_type,codon,xgb,0,4,{}
+genus,dna_type,codon,mlp,0,4,{}
+genus,dna_type,codon,majority,1,0,{}
+genus,dna_type,codon,gnb,1,0,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,1,0,{}
+genus,dna_type,codon,xgb,1,0,{}
+genus,dna_type,codon,mlp,1,0,{}
+genus,dna_type,codon,majority,1,1,{}
+genus,dna_type,codon,gnb,1,1,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,1,1,{}
+genus,dna_type,codon,xgb,1,1,{}
+genus,dna_type,codon,mlp,1,1,{}
+genus,dna_type,codon,majority,1,2,{}
+genus,dna_type,codon,gnb,1,2,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,1,2,{}
+genus,dna_type,codon,xgb,1,2,{}
+genus,dna_type,codon,mlp,1,2,{}
+genus,dna_type,codon,majority,1,3,{}
+genus,dna_type,codon,gnb,1,3,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,codon,rf,1,3,{}
+genus,dna_type,codon,xgb,1,3,{}
+genus,dna_type,codon,mlp,1,3,{}
+genus,dna_type,codon,majority,1,4,{}
+genus,dna_type,codon,gnb,1,4,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 7}
+genus,dna_type,codon,rf,1,4,{}
+genus,dna_type,codon,xgb,1,4,{}
+genus,dna_type,codon,mlp,1,4,{}
+genus,dna_type,codon,majority,2,0,{}
+genus,dna_type,codon,gnb,2,0,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,codon,rf,2,0,{}
+genus,dna_type,codon,xgb,2,0,{}
+genus,dna_type,codon,mlp,2,0,{}
+genus,dna_type,codon,majority,2,1,{}
+genus,dna_type,codon,gnb,2,1,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,codon,rf,2,1,{}
+genus,dna_type,codon,xgb,2,1,{}
+genus,dna_type,codon,mlp,2,1,{}
+genus,dna_type,codon,majority,2,2,{}
+genus,dna_type,codon,gnb,2,2,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,codon,rf,2,2,{}
+genus,dna_type,codon,xgb,2,2,{}
+genus,dna_type,codon,mlp,2,2,{}
+genus,dna_type,codon,majority,2,3,{}
+genus,dna_type,codon,gnb,2,3,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,codon,rf,2,3,{}
+genus,dna_type,codon,xgb,2,3,{}
+genus,dna_type,codon,mlp,2,3,{}
+genus,dna_type,codon,majority,2,4,{}
+genus,dna_type,codon,gnb,2,4,{'var_smoothing': 1e-09}
+genus,dna_type,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,codon,rf,2,4,{}
+genus,dna_type,codon,xgb,2,4,{}
+genus,dna_type,codon,mlp,2,4,{}
+genus,dna_type,amino,majority,0,0,{}
+genus,dna_type,amino,gnb,0,0,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,0,0,{}
+genus,dna_type,amino,xgb,0,0,{}
+genus,dna_type,amino,mlp,0,0,{}
+genus,dna_type,amino,majority,0,1,{}
+genus,dna_type,amino,gnb,0,1,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,0,1,{}
+genus,dna_type,amino,xgb,0,1,{}
+genus,dna_type,amino,mlp,0,1,{}
+genus,dna_type,amino,majority,0,2,{}
+genus,dna_type,amino,gnb,0,2,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,0,2,{}
+genus,dna_type,amino,xgb,0,2,{}
+genus,dna_type,amino,mlp,0,2,{}
+genus,dna_type,amino,majority,0,3,{}
+genus,dna_type,amino,gnb,0,3,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,0,3,{}
+genus,dna_type,amino,xgb,0,3,{}
+genus,dna_type,amino,mlp,0,3,{}
+genus,dna_type,amino,majority,0,4,{}
+genus,dna_type,amino,gnb,0,4,{'var_smoothing': 0.001}
+genus,dna_type,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 7}
+genus,dna_type,amino,rf,0,4,{}
+genus,dna_type,amino,xgb,0,4,{}
+genus,dna_type,amino,mlp,0,4,{}
+genus,dna_type,amino,majority,1,0,{}
+genus,dna_type,amino,gnb,1,0,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,1,0,{}
+genus,dna_type,amino,xgb,1,0,{}
+genus,dna_type,amino,mlp,1,0,{}
+genus,dna_type,amino,majority,1,1,{}
+genus,dna_type,amino,gnb,1,1,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,1,1,{}
+genus,dna_type,amino,xgb,1,1,{}
+genus,dna_type,amino,mlp,1,1,{}
+genus,dna_type,amino,majority,1,2,{}
+genus,dna_type,amino,gnb,1,2,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,1,2,{}
+genus,dna_type,amino,xgb,1,2,{}
+genus,dna_type,amino,mlp,1,2,{}
+genus,dna_type,amino,majority,1,3,{}
+genus,dna_type,amino,gnb,1,3,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,1,3,{}
+genus,dna_type,amino,xgb,1,3,{}
+genus,dna_type,amino,mlp,1,3,{}
+genus,dna_type,amino,majority,1,4,{}
+genus,dna_type,amino,gnb,1,4,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,1,4,{}
+genus,dna_type,amino,xgb,1,4,{}
+genus,dna_type,amino,mlp,1,4,{}
+genus,dna_type,amino,majority,2,0,{}
+genus,dna_type,amino,gnb,2,0,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,2,0,{}
+genus,dna_type,amino,xgb,2,0,{}
+genus,dna_type,amino,mlp,2,0,{}
+genus,dna_type,amino,majority,2,1,{}
+genus,dna_type,amino,gnb,2,1,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,2,1,{}
+genus,dna_type,amino,xgb,2,1,{}
+genus,dna_type,amino,mlp,2,1,{}
+genus,dna_type,amino,majority,2,2,{}
+genus,dna_type,amino,gnb,2,2,{'var_smoothing': 0.001}
+genus,dna_type,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,2,2,{}
+genus,dna_type,amino,xgb,2,2,{}
+genus,dna_type,amino,mlp,2,2,{}
+genus,dna_type,amino,majority,2,3,{}
+genus,dna_type,amino,gnb,2,3,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+genus,dna_type,amino,rf,2,3,{}
+genus,dna_type,amino,xgb,2,3,{}
+genus,dna_type,amino,mlp,2,3,{}
+genus,dna_type,amino,majority,2,4,{}
+genus,dna_type,amino,gnb,2,4,{'var_smoothing': 1e-09}
+genus,dna_type,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 3}
+genus,dna_type,amino,rf,2,4,{}
+genus,dna_type,amino,xgb,2,4,{}
+genus,dna_type,amino,mlp,2,4,{}
+ungrouped,kingdom,codon,majority,0,0,{}
+ungrouped,kingdom,codon,gnb,0,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,0,0,{}
+ungrouped,kingdom,codon,xgb,0,0,{}
+ungrouped,kingdom,codon,mlp,0,0,{}
+ungrouped,kingdom,codon,majority,0,1,{}
+ungrouped,kingdom,codon,gnb,0,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,0,1,{}
+ungrouped,kingdom,codon,xgb,0,1,{}
+ungrouped,kingdom,codon,mlp,0,1,{}
+ungrouped,kingdom,codon,majority,0,2,{}
+ungrouped,kingdom,codon,gnb,0,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,0,2,{}
+ungrouped,kingdom,codon,xgb,0,2,{}
+ungrouped,kingdom,codon,mlp,0,2,{}
+ungrouped,kingdom,codon,majority,0,3,{}
+ungrouped,kingdom,codon,gnb,0,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,0,3,{}
+ungrouped,kingdom,codon,xgb,0,3,{}
+ungrouped,kingdom,codon,mlp,0,3,{}
+ungrouped,kingdom,codon,majority,0,4,{}
+ungrouped,kingdom,codon,gnb,0,4,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,0,4,{}
+ungrouped,kingdom,codon,xgb,0,4,{}
+ungrouped,kingdom,codon,mlp,0,4,{}
+ungrouped,kingdom,codon,majority,1,0,{}
+ungrouped,kingdom,codon,gnb,1,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,1,0,{}
+ungrouped,kingdom,codon,xgb,1,0,{}
+ungrouped,kingdom,codon,mlp,1,0,{}
+ungrouped,kingdom,codon,majority,1,1,{}
+ungrouped,kingdom,codon,gnb,1,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,codon,rf,1,1,{}
+ungrouped,kingdom,codon,xgb,1,1,{}
+ungrouped,kingdom,codon,mlp,1,1,{}
+ungrouped,kingdom,codon,majority,1,2,{}
+ungrouped,kingdom,codon,gnb,1,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,1,2,{}
+ungrouped,kingdom,codon,xgb,1,2,{}
+ungrouped,kingdom,codon,mlp,1,2,{}
+ungrouped,kingdom,codon,majority,1,3,{}
+ungrouped,kingdom,codon,gnb,1,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,1,3,{}
+ungrouped,kingdom,codon,xgb,1,3,{}
+ungrouped,kingdom,codon,mlp,1,3,{}
+ungrouped,kingdom,codon,majority,1,4,{}
+ungrouped,kingdom,codon,gnb,1,4,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,1,4,{}
+ungrouped,kingdom,codon,xgb,1,4,{}
+ungrouped,kingdom,codon,mlp,1,4,{}
+ungrouped,kingdom,codon,majority,2,0,{}
+ungrouped,kingdom,codon,gnb,2,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,2,0,{}
+ungrouped,kingdom,codon,xgb,2,0,{}
+ungrouped,kingdom,codon,mlp,2,0,{}
+ungrouped,kingdom,codon,majority,2,1,{}
+ungrouped,kingdom,codon,gnb,2,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,2,1,{}
+ungrouped,kingdom,codon,xgb,2,1,{}
+ungrouped,kingdom,codon,mlp,2,1,{}
+ungrouped,kingdom,codon,majority,2,2,{}
+ungrouped,kingdom,codon,gnb,2,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,2,2,{}
+ungrouped,kingdom,codon,xgb,2,2,{}
+ungrouped,kingdom,codon,mlp,2,2,{}
+ungrouped,kingdom,codon,majority,2,3,{}
+ungrouped,kingdom,codon,gnb,2,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,2,3,{}
+ungrouped,kingdom,codon,xgb,2,3,{}
+ungrouped,kingdom,codon,mlp,2,3,{}
+ungrouped,kingdom,codon,majority,2,4,{}
+ungrouped,kingdom,codon,gnb,2,4,{'var_smoothing': 1e-06}
+ungrouped,kingdom,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,codon,rf,2,4,{}
+ungrouped,kingdom,codon,xgb,2,4,{}
+ungrouped,kingdom,codon,mlp,2,4,{}
+ungrouped,kingdom,amino,majority,0,0,{}
+ungrouped,kingdom,amino,gnb,0,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,0,0,{}
+ungrouped,kingdom,amino,xgb,0,0,{}
+ungrouped,kingdom,amino,mlp,0,0,{}
+ungrouped,kingdom,amino,majority,0,1,{}
+ungrouped,kingdom,amino,gnb,0,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,amino,rf,0,1,{}
+ungrouped,kingdom,amino,xgb,0,1,{}
+ungrouped,kingdom,amino,mlp,0,1,{}
+ungrouped,kingdom,amino,majority,0,2,{}
+ungrouped,kingdom,amino,gnb,0,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,0,2,{}
+ungrouped,kingdom,amino,xgb,0,2,{}
+ungrouped,kingdom,amino,mlp,0,2,{}
+ungrouped,kingdom,amino,majority,0,3,{}
+ungrouped,kingdom,amino,gnb,0,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,0,3,{}
+ungrouped,kingdom,amino,xgb,0,3,{}
+ungrouped,kingdom,amino,mlp,0,3,{}
+ungrouped,kingdom,amino,majority,0,4,{}
+ungrouped,kingdom,amino,gnb,0,4,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,0,4,{}
+ungrouped,kingdom,amino,xgb,0,4,{}
+ungrouped,kingdom,amino,mlp,0,4,{}
+ungrouped,kingdom,amino,majority,1,0,{}
+ungrouped,kingdom,amino,gnb,1,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,1,0,{}
+ungrouped,kingdom,amino,xgb,1,0,{}
+ungrouped,kingdom,amino,mlp,1,0,{}
+ungrouped,kingdom,amino,majority,1,1,{}
+ungrouped,kingdom,amino,gnb,1,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,1,1,{}
+ungrouped,kingdom,amino,xgb,1,1,{}
+ungrouped,kingdom,amino,mlp,1,1,{}
+ungrouped,kingdom,amino,majority,1,2,{}
+ungrouped,kingdom,amino,gnb,1,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,1,2,{}
+ungrouped,kingdom,amino,xgb,1,2,{}
+ungrouped,kingdom,amino,mlp,1,2,{}
+ungrouped,kingdom,amino,majority,1,3,{}
+ungrouped,kingdom,amino,gnb,1,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,amino,rf,1,3,{}
+ungrouped,kingdom,amino,xgb,1,3,{}
+ungrouped,kingdom,amino,mlp,1,3,{}
+ungrouped,kingdom,amino,majority,1,4,{}
+ungrouped,kingdom,amino,gnb,1,4,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,amino,rf,1,4,{}
+ungrouped,kingdom,amino,xgb,1,4,{}
+ungrouped,kingdom,amino,mlp,1,4,{}
+ungrouped,kingdom,amino,majority,2,0,{}
+ungrouped,kingdom,amino,gnb,2,0,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,2,0,{}
+ungrouped,kingdom,amino,xgb,2,0,{}
+ungrouped,kingdom,amino,mlp,2,0,{}
+ungrouped,kingdom,amino,majority,2,1,{}
+ungrouped,kingdom,amino,gnb,2,1,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,amino,rf,2,1,{}
+ungrouped,kingdom,amino,xgb,2,1,{}
+ungrouped,kingdom,amino,mlp,2,1,{}
+ungrouped,kingdom,amino,majority,2,2,{}
+ungrouped,kingdom,amino,gnb,2,2,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,kingdom,amino,rf,2,2,{}
+ungrouped,kingdom,amino,xgb,2,2,{}
+ungrouped,kingdom,amino,mlp,2,2,{}
+ungrouped,kingdom,amino,majority,2,3,{}
+ungrouped,kingdom,amino,gnb,2,3,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,2,3,{}
+ungrouped,kingdom,amino,xgb,2,3,{}
+ungrouped,kingdom,amino,mlp,2,3,{}
+ungrouped,kingdom,amino,majority,2,4,{}
+ungrouped,kingdom,amino,gnb,2,4,{'var_smoothing': 1e-09}
+ungrouped,kingdom,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,kingdom,amino,rf,2,4,{}
+ungrouped,kingdom,amino,xgb,2,4,{}
+ungrouped,kingdom,amino,mlp,2,4,{}
+ungrouped,dna_type,codon,majority,0,0,{}
+ungrouped,dna_type,codon,gnb,0,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,0,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,0,0,{}
+ungrouped,dna_type,codon,xgb,0,0,{}
+ungrouped,dna_type,codon,mlp,0,0,{}
+ungrouped,dna_type,codon,majority,0,1,{}
+ungrouped,dna_type,codon,gnb,0,1,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,0,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,0,1,{}
+ungrouped,dna_type,codon,xgb,0,1,{}
+ungrouped,dna_type,codon,mlp,0,1,{}
+ungrouped,dna_type,codon,majority,0,2,{}
+ungrouped,dna_type,codon,gnb,0,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,0,2,{}
+ungrouped,dna_type,codon,xgb,0,2,{}
+ungrouped,dna_type,codon,mlp,0,2,{}
+ungrouped,dna_type,codon,majority,0,3,{}
+ungrouped,dna_type,codon,gnb,0,3,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,0,3,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,codon,rf,0,3,{}
+ungrouped,dna_type,codon,xgb,0,3,{}
+ungrouped,dna_type,codon,mlp,0,3,{}
+ungrouped,dna_type,codon,majority,0,4,{}
+ungrouped,dna_type,codon,gnb,0,4,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,0,4,{}
+ungrouped,dna_type,codon,xgb,0,4,{}
+ungrouped,dna_type,codon,mlp,0,4,{}
+ungrouped,dna_type,codon,majority,1,0,{}
+ungrouped,dna_type,codon,gnb,1,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,1,0,{}
+ungrouped,dna_type,codon,xgb,1,0,{}
+ungrouped,dna_type,codon,mlp,1,0,{}
+ungrouped,dna_type,codon,majority,1,1,{}
+ungrouped,dna_type,codon,gnb,1,1,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,1,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,codon,rf,1,1,{}
+ungrouped,dna_type,codon,xgb,1,1,{}
+ungrouped,dna_type,codon,mlp,1,1,{}
+ungrouped,dna_type,codon,majority,1,2,{}
+ungrouped,dna_type,codon,gnb,1,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,1,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,1,2,{}
+ungrouped,dna_type,codon,xgb,1,2,{}
+ungrouped,dna_type,codon,mlp,1,2,{}
+ungrouped,dna_type,codon,majority,1,3,{}
+ungrouped,dna_type,codon,gnb,1,3,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,1,3,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,codon,rf,1,3,{}
+ungrouped,dna_type,codon,xgb,1,3,{}
+ungrouped,dna_type,codon,mlp,1,3,{}
+ungrouped,dna_type,codon,majority,1,4,{}
+ungrouped,dna_type,codon,gnb,1,4,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,1,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,1,4,{}
+ungrouped,dna_type,codon,xgb,1,4,{}
+ungrouped,dna_type,codon,mlp,1,4,{}
+ungrouped,dna_type,codon,majority,2,0,{}
+ungrouped,dna_type,codon,gnb,2,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,2,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,2,0,{}
+ungrouped,dna_type,codon,xgb,2,0,{}
+ungrouped,dna_type,codon,mlp,2,0,{}
+ungrouped,dna_type,codon,majority,2,1,{}
+ungrouped,dna_type,codon,gnb,2,1,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,2,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,2,1,{}
+ungrouped,dna_type,codon,xgb,2,1,{}
+ungrouped,dna_type,codon,mlp,2,1,{}
+ungrouped,dna_type,codon,majority,2,2,{}
+ungrouped,dna_type,codon,gnb,2,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,2,2,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,codon,rf,2,2,{}
+ungrouped,dna_type,codon,xgb,2,2,{}
+ungrouped,dna_type,codon,mlp,2,2,{}
+ungrouped,dna_type,codon,majority,2,3,{}
+ungrouped,dna_type,codon,gnb,2,3,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,2,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,2,3,{}
+ungrouped,dna_type,codon,xgb,2,3,{}
+ungrouped,dna_type,codon,mlp,2,3,{}
+ungrouped,dna_type,codon,majority,2,4,{}
+ungrouped,dna_type,codon,gnb,2,4,{'var_smoothing': 1e-09}
+ungrouped,dna_type,codon,knn,2,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,codon,rf,2,4,{}
+ungrouped,dna_type,codon,xgb,2,4,{}
+ungrouped,dna_type,codon,mlp,2,4,{}
+ungrouped,dna_type,amino,majority,0,0,{}
+ungrouped,dna_type,amino,gnb,0,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,0,0,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,0,0,{}
+ungrouped,dna_type,amino,xgb,0,0,{}
+ungrouped,dna_type,amino,mlp,0,0,{}
+ungrouped,dna_type,amino,majority,0,1,{}
+ungrouped,dna_type,amino,gnb,0,1,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,0,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,0,1,{}
+ungrouped,dna_type,amino,xgb,0,1,{}
+ungrouped,dna_type,amino,mlp,0,1,{}
+ungrouped,dna_type,amino,majority,0,2,{}
+ungrouped,dna_type,amino,gnb,0,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,0,2,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,amino,rf,0,2,{}
+ungrouped,dna_type,amino,xgb,0,2,{}
+ungrouped,dna_type,amino,mlp,0,2,{}
+ungrouped,dna_type,amino,majority,0,3,{}
+ungrouped,dna_type,amino,gnb,0,3,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,0,3,{'kneighborsclassifier__n_neighbors': 7}
+ungrouped,dna_type,amino,rf,0,3,{}
+ungrouped,dna_type,amino,xgb,0,3,{}
+ungrouped,dna_type,amino,mlp,0,3,{}
+ungrouped,dna_type,amino,majority,0,4,{}
+ungrouped,dna_type,amino,gnb,0,4,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,0,4,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,amino,rf,0,4,{}
+ungrouped,dna_type,amino,xgb,0,4,{}
+ungrouped,dna_type,amino,mlp,0,4,{}
+ungrouped,dna_type,amino,majority,1,0,{}
+ungrouped,dna_type,amino,gnb,1,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,1,0,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,amino,rf,1,0,{}
+ungrouped,dna_type,amino,xgb,1,0,{}
+ungrouped,dna_type,amino,mlp,1,0,{}
+ungrouped,dna_type,amino,majority,1,1,{}
+ungrouped,dna_type,amino,gnb,1,1,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,1,1,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,amino,rf,1,1,{}
+ungrouped,dna_type,amino,xgb,1,1,{}
+ungrouped,dna_type,amino,mlp,1,1,{}
+ungrouped,dna_type,amino,majority,1,2,{}
+ungrouped,dna_type,amino,gnb,1,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,1,2,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,1,2,{}
+ungrouped,dna_type,amino,xgb,1,2,{}
+ungrouped,dna_type,amino,mlp,1,2,{}
+ungrouped,dna_type,amino,majority,1,3,{}
+ungrouped,dna_type,amino,gnb,1,3,{'var_smoothing': 0.001}
+ungrouped,dna_type,amino,knn,1,3,{'kneighborsclassifier__n_neighbors': 1}
+ungrouped,dna_type,amino,rf,1,3,{}
+ungrouped,dna_type,amino,xgb,1,3,{}
+ungrouped,dna_type,amino,mlp,1,3,{}
+ungrouped,dna_type,amino,majority,1,4,{}
+ungrouped,dna_type,amino,gnb,1,4,{'var_smoothing': 0.001}
+ungrouped,dna_type,amino,knn,1,4,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,1,4,{}
+ungrouped,dna_type,amino,xgb,1,4,{}
+ungrouped,dna_type,amino,mlp,1,4,{}
+ungrouped,dna_type,amino,majority,2,0,{}
+ungrouped,dna_type,amino,gnb,2,0,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,2,0,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,2,0,{}
+ungrouped,dna_type,amino,xgb,2,0,{}
+ungrouped,dna_type,amino,mlp,2,0,{}
+ungrouped,dna_type,amino,majority,2,1,{}
+ungrouped,dna_type,amino,gnb,2,1,{'var_smoothing': 0.001}
+ungrouped,dna_type,amino,knn,2,1,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,2,1,{}
+ungrouped,dna_type,amino,xgb,2,1,{}
+ungrouped,dna_type,amino,mlp,2,1,{}
+ungrouped,dna_type,amino,majority,2,2,{}
+ungrouped,dna_type,amino,gnb,2,2,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,2,2,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,2,2,{}
+ungrouped,dna_type,amino,xgb,2,2,{}
+ungrouped,dna_type,amino,mlp,2,2,{}
+ungrouped,dna_type,amino,majority,2,3,{}
+ungrouped,dna_type,amino,gnb,2,3,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,2,3,{'kneighborsclassifier__n_neighbors': 3}
+ungrouped,dna_type,amino,rf,2,3,{}
+ungrouped,dna_type,amino,xgb,2,3,{}
+ungrouped,dna_type,amino,mlp,2,3,{}
+ungrouped,dna_type,amino,majority,2,4,{}
+ungrouped,dna_type,amino,gnb,2,4,{'var_smoothing': 1e-09}
+ungrouped,dna_type,amino,knn,2,4,{'kneighborsclassifier__n_neighbors': 7}
+ungrouped,dna_type,amino,rf,2,4,{}
+ungrouped,dna_type,amino,xgb,2,4,{}
+ungrouped,dna_type,amino,mlp,2,4,{}

@@ -1,0 +1,5 @@
+step,rows,removed
+raw,13028,0
+drop Kingdom 'plm' (plasmid),13010,18
+"keep DNAtype in {0 genomic, 1 mitochondrial, 2 chloroplast}",12964,46
+drop inv + chloroplast (Toxoplasma apicoplast) row,12963,1
