@@ -87,3 +87,10 @@ def test_animal_mitochondria_use_a_different_genetic_code(clean):
     assert (nuclear.UGA > nuclear.UGG).mean() < 0.02  # UGA a rare stop
     assert (vert_mito.AGA + vert_mito.AGG).median() < 0.001
 
+
+def test_raw_file_matches_documented_checksum():
+    """data/README.md records this sha256; the raw file must stay unchanged."""
+    import hashlib
+
+    digest = hashlib.sha256(cu.DATA.read_bytes()).hexdigest()
+    assert digest == "ba8c66381c598ead1c800a66e457e1496c94ecf537db54ca7d89c5a50cd033ca"

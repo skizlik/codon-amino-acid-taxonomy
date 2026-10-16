@@ -26,7 +26,7 @@ This project replicates and extends the findings of Khomtchouk (2020) on using c
 - Applied 85/15 train-test splits with separate validation sets
 - One-hot encoding for categorical variables
 
-The original 2022 project report is `docs/codon-amino-acid-taxonomy-report.pdf`. Its model-comparison results are withdrawn (see [ERRATUM.md](ERRATUM.md)).
+The original 2022 report, slides and notebooks are attached to the [v0-2022 release](https://github.com/skizlik/codon-amino-acid-taxonomy/releases/tag/v0-2022). Their model-comparison results are withdrawn (see [ERRATUM.md](ERRATUM.md)).
 
 ## Installation and Setup
 
@@ -81,13 +81,11 @@ were affected by the defects described in [ERRATUM.md](ERRATUM.md). A corrected 
 
 ### Biological Insights
 - Certain codons (particularly CUA and UGA) show high predictive importance across models
-![SHAP analysis of codon and amino acid frequencies to predict DNA.  Most predictive codons were UGA, CUA, and UUA.  Most predictive amino acids were aspartic acid, leucine, and isoleucine. Results were for MLP classifier.](assets/SHAP-MLP-DNA.png)
 - Taxonomic relationships are reflected in codon usage patterns
 - DNA type classification achieves higher accuracy than taxonomic classification
 
 ### Methodological Contributions
 - Examines amino acid frequencies as an alternative to codon frequencies
-![Boxplots of relative frequency of leucine by taxonomic group, all DNA types pooled. The vertebrate-invertebrate difference is mostly a compartment effect: 78% of vertebrate rows are mitochondrial, and mitochondrial rows have higher leucine frequencies.](assets/leucine_boxplot.png)
 
 ## Future Work
 
